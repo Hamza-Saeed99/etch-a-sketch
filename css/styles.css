@@ -16,3 +16,66 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+#main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 64px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 30%;
+    padding: 0;
+    gap: 32px;
+    margin-left: 64px;
+}
+
+.button {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid rgb(51, 51, 51);
+    background-color: #dcdad7;
+    border-radius: 5px;
+    font-size:medium;
+}
+
+.selected {
+    color: #dcdad7;
+    background-color: #3c4144;
+}
+
+#picker {
+    width: 100%;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    padding: 0px;
+    margin: 0px;
+}
+
+#canvas {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    background-color: #dbd9d6;
+    box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+}
